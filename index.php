@@ -33,22 +33,22 @@
                             Categories
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Nature</a></li>
+                            <li><a class="dropdown-item" href="#nature">Nature</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Architecture</a></li>
+                            <li><a class="dropdown-item" href="#architecture">Architecture</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Travel</a></li>
+                            <li><a class="dropdown-item" href="#travel">Travel</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
 
                 </ul>
@@ -108,102 +108,124 @@
         </button>
     </div>
 
-    <section class="my-4">
-        <div class="py-4">
-            <h2 class="text-center">
-                Nature
-            </h2>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <img src="images/n2.jpg" class="img-fluid pb-3">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <img src="images/n3.jpg" class="img-fluid pb-3">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <img src="images/n4.jpg" class="img-fluid pb-3">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="my-4">
-        <div class="py-4">
-            <h2 class="text-center">
-                Architecture
-            </h2>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <img src="images/a2.jpg" class="img-fluid pb-3">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <img src="images/a3.jpg" class="img-fluid pb-3">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <img src="images/a4.jpg" class="img-fluid pb-3">
+    <a id="nature">
+        <section class="my-4">
+            <div class="py-4">
+                <h2 class="text-center">
+                    Nature
+                </h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <img src="images/n2.jpg" class="img-fluid pb-3">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <img src="images/n3.jpg" class="img-fluid pb-3">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <img src="images/n4.jpg" class="img-fluid pb-3">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </a>
 
 
-    <section class="my-4">
-        <div class="py-4">
-            <h2 class="text-center">
-                Travel
-            </h2>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <img src="images/t2.jpg" class="img-fluid pb-3">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <img src="images/t3.jpg" class="img-fluid pb-3">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <img src="images/t4.jpg" class="img-fluid pb-3">
+    <a id="architecture">
+        <section class="my-4">
+            <div class="py-4">
+                <h2 class="text-center">
+                    Architecture
+                </h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <img src="images/a2.jpg" class="img-fluid pb-3">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <img src="images/a3.jpg" class="img-fluid pb-3">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <img src="images/a4.jpg" class="img-fluid pb-3">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </a>
+
+    <a id="travel">
+        <section class="my-4">
+            <div class="py-4">
+                <h2 class="text-center">
+                    Travel
+                </h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <img src="images/t2.jpg" class="img-fluid pb-3">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <img src="images/t3.jpg" class="img-fluid pb-3">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <img src="images/t4.jpg" class="img-fluid pb-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </a>
 
     <!-- Contact Section -->
-    <section class="my-4">
-        <div class="py-4">
-            <h2 class="text-center">
-                Contact Us
-            </h2>
-        </div>
-        <div class="w-50  m-auto">
-            <form action="about.php" method="post">
-                <div class="form-group">
-                    <label>Name:</label>
-                    <input type="text" name="name" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Email:</label>
-                    <input type="email" name="email" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Number:</label>
-                    <input type="text" name="number" class="form-control">
-                </div> <br>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </section>
+
+    <a id="contact">
+        <section class="my-4">
+            <div class="py-4">
+                <h2 class="text-center">
+                    Contact Us
+                </h2>
+            </div>
+            <div class="w-50  m-auto">
+                <form action="about.php" method="post">
+                    <div class="form-group">
+                        <label>Name:</label>
+                        <input type="text" name="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Number:</label>
+                        <input type="text" name="number" class="form-control">
+                    </div> <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </a>
 
     <!-- About Scetion -->
 
-
-
-
+    <a id="about">
+        <section class="my-4">
+            <div class="py-4">
+                <h2 class="text-center">
+                    About
+                </h2>
+            </div>
+            <div class="container-fluid">
+                <h3 class="text-center">
+                    Khadiza
+                </h3>
+                <p class="text-center"> <b>I am a passionate photographer interested in working in Architecture, Nature
+                        and
+                        Travel Photography </b> </p>
+            </div>
+        </section>
+    </a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
