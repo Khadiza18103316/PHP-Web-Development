@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <!-- Home Page -->
+    <!-- Home Section -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Photo Gallery</a>
@@ -60,7 +60,7 @@
         </div>
     </nav>
 
-    <!-- Photo Slider -->
+    <!-- Photo Section -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -172,6 +172,36 @@
             </div>
         </div>
     </section>
+
+    <!-- Contact Section -->
+    <section class="my-4">
+        <div class="py-4">
+            <h2 class="text-center">
+                Contact Us
+            </h2>
+        </div>
+        <div class="w-50  m-auto">
+            <form action="about.php" method="post">
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" name="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Number:</label>
+                    <input type="text" name="number" class="form-control">
+                </div> <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Scetion -->
+
+
 
 
 
